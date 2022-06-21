@@ -62,7 +62,7 @@ a {
 .button-nav {
   display: flex;
   gap: 1rem;
-  background-color: '#272222';
+  background-color: #272222;
   padding: 1rem 2rem;
   border-radius: 0.4rem;
 }
@@ -126,14 +126,14 @@ a {
   border-radius: 0.4rem;
   margin: 4rem auto;
   padding: 2rem 4rem;
-  background-color: '#D9D9D9';
+  background-color: #D9D9D9;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
 }
 
 .card-list h1 {
   text-align: center;
   font-size: 1.8rem;
-  color: '#272222';
+  color: #272222;
   margin-bottom: 2.4rem;
 }
 
@@ -156,7 +156,7 @@ a {
   border-radius: 0.4rem;
   margin: 4rem auto;
   padding: 2rem 4rem;
-  background-color: '#D9D9D9';
+  background-color: #D9D9D9;
   box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -188,10 +188,10 @@ a {
 }
 
 .tabela tr th {
-  border: 2px solid '#272222';
+  border: 2px solid #272222;
   padding: 1rem;
   font-size: 1.6rem;
-  color: '#272222';
+  color: #272222;
   margin: 0 1rem;
 }
 
