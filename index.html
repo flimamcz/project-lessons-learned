@@ -1,41 +1,93 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Projeto - Lessons Learned</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto - Lessons Learned</title>
 </head>
 
 <body>
 
-    <header id="cabecalho">
-        <div class="container flex">
-            <h1 id="titulo">
-                <a href="/">
-                    <img src="assets/images/logo.svg" alt="logo do filipe">
-                </a>
-            </h1>
+  <header id="cabecalho">
+    <div class="container flex">
+      <h1 id="titulo">
+        <a href="/">
+          <img src="assets/images/logo.svg" alt="logo do filipe">
+        </a>
+      </h1>
 
-            <nav class="navbar">
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
-                    <li><a class="button-nav" href="https://github.com/flimamcz" target="_blank">
-                        <img src="assets/icons/icon-git.svg" alt="icone do github">
-                        <span>Github</span>
-                    </a></li>
-                </ul>
-            </nav>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfólio</a></li>
+          <li><a class="button-nav" href="https://github.com/flimamcz" target="_blank">
+              <img src="assets/icons/icon-git.svg" alt="icone do github">
+              <span>Github</span>
+            </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="">
+    <section class="introduction">
+      <div class="container flex">
+        <div class="intro-text">
+          <h1>Oi, Seja bem-vindo ao meu Projeto Lessons Learned</h1>
+          <p>
+            Me chamo Filipe, Tenho 20 anos. Nordestino, natural de Maceió/AL (Capital das orlas mais lindas do Brasil :)
+          </p>
         </div>
-    </header>
+
+        <div>
+          <img id="minha_foto" src="assets/images/photo.svg" alt="Foto do autor do site">
+        </div>
+      </div>
+    </section>
+
+    <section class="licoes">
+      <h1 class="title">Aprendizados na trybe</h1>
+
+      <div class="container-licoes">
+        <ol type="1" id="licoes_aprendidas" class="card-list">
+          <h1>Aprendizados Atual</h1>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Comunicação assertiva</li>
+          <li>Zoom</li>
+          <li>Slack</li>
+          <li>Git (Aprimorado)</li>
+          <li>HTML Semântico</li>
+          <li>Unix e Bash</li>
+          <li>Internet (HTTP - HTTPS)</li>
+          <li>Scratch</li>
+        </ol>
+
+        <ul id="licoes_a_aprender" class="card-list">
+          <h1>Aprendizados Futuros</h1>
+          <li>ReactJs</li>
+          <li>NodeJS</li>
+          <li>TypeScript</li>
+          <li>Testes Unitários</li>
+          <li>Metodologias Ágeis</li>
+          <li>Redux</li>
+          <li>MongoDB</li>
+          <li>Soft Skills</li>
+          <li>ORM</li>
+          <li>Python</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
 
 </body>
 
