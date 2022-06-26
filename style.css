@@ -62,7 +62,7 @@ a {
 .button-nav {
   display: flex;
   gap: 1rem;
-  background-color: #272222;
+  background-color: rgb(94, 58, 58);
   padding: 1rem 2rem;
   border-radius: 0.4rem;
 }
@@ -70,10 +70,9 @@ a {
 /* Introdução */
 .introduction {
   margin-top: 8.4rem;
-  background-color: #272222;
+  background-color: rgb(39, 34, 34);
   padding: 4.5rem;
   color: rgb(253, 251, 251);
-
 }
 
 .intro-text h1 {
@@ -126,14 +125,14 @@ a {
   border-radius: 0.4rem;
   margin: 4rem auto;
   padding: 2rem 4rem;
-  background-color: #D9D9D9;
-  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgb(217, 217, 217);
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.25);
+  color: rgb(39, 34, 34);
 }
 
 .card-list h1 {
   text-align: center;
   font-size: 1.8rem;
-  color: #272222;
   margin-bottom: 2.4rem;
 }
 
@@ -156,8 +155,8 @@ a {
   border-radius: 0.4rem;
   margin: 4rem auto;
   padding: 2rem 4rem;
-  background-color: #D9D9D9;
-  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+  background-color: rgb(217, 217, 217);
+  box-shadow: 1px 2px 6px 1px rgba(0, 0, 0, 0.25);
 }
 
 .card-artigo h2 {
@@ -188,10 +187,10 @@ a {
 }
 
 .tabela tr th {
-  border: 2px solid #272222;
+  border: 2px solid rgb(39, 34, 34);
   padding: 1rem;
   font-size: 1.6rem;
-  color: #272222;
+  color: rgb(39, 34, 34);
   margin: 0 1rem;
 }
 
@@ -229,6 +228,6 @@ a {
 }
 
 #rodape p a:hover {
-  transition: .3s;
+  transition: 0.3s;
   color: rgba(39, 34, 34, 0.8);
 }
